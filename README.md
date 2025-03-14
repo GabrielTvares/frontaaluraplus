@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <p align="center"> <img src="https://imgur.com/BASzVop.png" alt="HTML e CSS: praticando HTML e CSS"> </p>
 
@@ -12,3 +13,6 @@
 
 ## Screenshots
 ![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+=======
+# frontaaluraplus
+>>>>>>> bd8af2c59a95991047b5f8a3b8cbe2c1112b7b00
