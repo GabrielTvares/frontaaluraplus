@@ -171,3 +171,90 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 }
+
+/* Media Query para telas menores que 1000px */
+@media (max-width: 999px) {
+    /*elemento pai*/
+    body {
+        font-size: 14px; /* Reduz fonte base para melhor legibilidade */
+    }
+
+    /*imagem background inserida direto no front.*/
+    .principal {
+        background-size: cover; /* Mantém cover para preencher */
+        padding: 15px; /* Reduz padding */
+        min-height: 80vh; /* Ajusta altura para telas menores */
+    }
+
+    /*configuracao da img. */
+    .container {
+        display: flex; /* Mantém flex para empilhar */
+        flex-direction: column; /* Garante empilhamento */
+        padding: 0 15px; /* Ajusta padding */
+        height: auto; /* Remove altura fixa */
+    }
+
+    .container__botao {
+        padding: 0.8em; /* Reduz padding do botão */
+        font-size: 14px; /* Ajusta tamanho da fonte */
+    }
+
+    .container__titulo {
+        font-size: 22px; /* Reduz título */
+    }
+
+    .container__caixa {
+        margin: 0 2em; /* Reduz margem */
+    }
+
+    .secundario {
+        margin: 0 2em; /* Reduz margem */
+        text-align: center; /* Mantém centralizado */
+    }
+
+    .secundario__imagem {
+        width: 90%; /* Ajusta imagem para ocupar mais espaço */
+        max-width: 400px; /* Reduz limite máximo */
+    }
+
+    .descricao__titulo {
+        font-size: 22px; /* Reduz título */
+    }
+
+    .container__descricao {
+        padding: 1.5em; /* Ajusta padding */
+    }
+
+    .dispositivos__lista {
+        flex-direction: column; /* Empilha itens */
+        margin: 3em 0; /* Reduz margem */
+        padding: 0 15px;
+    }
+
+    .dispositivos__titulo {
+        font-size: 28px; /* Reduz título */
+    }
+
+    .rodape__lista {
+        flex-direction: column; /* Empilha links */
+        margin: 1em 0;
+        padding: 0 15px;
+    }
+
+    .lista__link a {
+        margin-left: 0; /* Remove margem lateral */
+        margin-bottom: 0.5em; /* Adiciona espaçamento vertical */
+    }
+
+    .rodape {
+        margin: 3em 1em 1em; /* Reduz margem */
+    }
+
+    .dev {
+        padding: 0.8em; /* Reduz padding */
+    }
+
+    .dev_texto {
+        font-size: 16px; /* Ajusta tamanho */
+    }
+}
